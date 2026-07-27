@@ -1,7 +1,0 @@
-.DS_Store
-Thumbs.db
-*.log
-backup-*.json
-historico-*.csv
-.env
-.env.*
