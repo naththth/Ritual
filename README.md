@@ -40,3 +40,10 @@ O projeto está configurado para:
 ## Segurança
 
 A chave incluída no HTML é a chave pública/publishable do Supabase. A proteção dos dados depende das políticas RLS do arquivo SQL. Nunca inclua a senha do banco, secret key ou service_role no repositório.
+
+## Estrutura correta para upload no GitHub
+
+Todos os arquivos deste pacote devem ficar diretamente na raiz do repositório.
+Não crie a pasta `icons`, porque o HTML e o manifesto desta versão apontam para os ícones na raiz.
+
+Depois de substituir os arquivos, desinstale o atalho/app antigo do celular e instale novamente para o Android atualizar o ícone.
